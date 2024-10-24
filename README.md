@@ -7,6 +7,6 @@ This repository contains a collection of projects that I have worked on. Each pr
 
 Here are some projects that I am working on:
 
-Undergraduate Reasearcher at the Michigan Autonomous Vehicle Research Intergroup Collaboration (MAVRIC) Lab:
+Undergraduate Reasearcher at the Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:
 https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
 
