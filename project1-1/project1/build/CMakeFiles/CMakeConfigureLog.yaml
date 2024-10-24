@@ -1,0 +1,938 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 24.0.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-f1de77.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-f1de77.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-87d102.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-87d102.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      cc: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-43fd95.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-43fd95.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:875:5: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        875 | int main(argc, argv) int argc; char *argv[];
+            |     ^
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-93bb58.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-93bb58.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: arm-arm-none-eabi
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-4721c2.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-4721c2.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-959d45.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-959d45.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-fb075b.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-fb075b.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-9e92df.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-9e92df.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      cc: warning: argument unused during compilation: '-Aa' [-Wunused-command-line-argument]
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-198010.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-198010.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:875:5: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        875 | int main(argc, argv) int argc; char *argv[];
+            |     ^
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-8a4b08.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-8a4b08.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: arm-arm-none-eabi
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-c82865.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-c82865.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      cc: error: unable to execute command: Segmentation fault: 11
+      cc: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      cc: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-757370.c
+      cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerId-757370.sh
+      cc: note: diagnostic msg: Crash backtrace is located in
+      cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      cc: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      cc: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      cc: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-412df2.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-412df2.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-7ec521.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-7ec521.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unsupported option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unsupported option '--ec++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: arm-arm-none-eabi
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-a3c949.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-a3c949.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-6e4323.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-6e4323.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-0bb9d6.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-0bb9d6.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-a9c00f.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-a9c00f.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unsupported option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unsupported option '--ec++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: arm-arm-none-eabi
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-b1623a.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-b1623a.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      c++: error: unable to execute command: Segmentation fault: 11
+      c++: error: clang frontend command failed due to signal (use -v to see invocation)
+      Apple clang version 16.0.0 (clang-1600.0.26.3)
+      Target: x86_64-apple-darwin24.0.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+      c++: note: diagnostic msg: 
+      ********************
+      
+      PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+      Preprocessed source(s) and associated run script(s) are located at:
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-f3c538.cpp
+      c++: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCXXCompilerId-f3c538.sh
+      c++: note: diagnostic msg: Crash backtrace is located in
+      c++: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+      c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+      c++: note: diagnostic msg: 
+      
+      ********************
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: error: no input files
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-YUZkCy"
+      binary: "/Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-YUZkCy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-YUZkCy'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_976df/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_976df.dir/build.make CMakeFiles/cmTC_976df.dir/build
+        Building C object CMakeFiles/cmTC_976df.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_976df.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompilerABI.c
+        cc: error: unable to execute command: Segmentation fault: 11
+        cc: error: clang frontend command failed due to signal (use -v to see invocation)
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: x86_64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        cc: note: diagnostic msg: 
+        ********************
+        
+        PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+        Preprocessed source(s) and associated run script(s) are located at:
+        cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerABI-5bebfc.c
+        cc: note: diagnostic msg: /var/folders/4_/n07yknxd4sz75tnq6crhv2lh0000gn/T/CMakeCCompilerABI-5bebfc.sh
+        cc: note: diagnostic msg: Crash backtrace is located in
+        cc: note: diagnostic msg: /Users/helenasieh/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+        cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+        cc: note: diagnostic msg: 
+        
+        ********************
+        make[1]: *** [CMakeFiles/cmTC_976df.dir/CMakeCCompilerABI.c.o] Error 1
+        make: *** [cmTC_976df/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc"
+    directories:
+      source: "/Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-31VHSD"
+      binary: "/Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-31VHSD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-31VHSD'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6f3f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f6f3f.dir/build.make CMakeFiles/cmTC_f6f3f.dir/build
+        Building C object CMakeFiles/cmTC_f6f3f.dir/testCCompiler.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_f6f3f.dir/testCCompiler.c.o -c /Users/helenasieh/Desktop/ROB102/project1-1/project1/build/CMakeFiles/CMakeScratch/TryCompile-31VHSD/testCCompiler.c
+        Linking C executable cmTC_f6f3f
+        /usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f3f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f6f3f.dir/testCCompiler.c.o -o cmTC_f6f3f
+        ld: library 'System' not found
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_f6f3f] Error 1
+        make: *** [cmTC_f6f3f/fast] Error 2
+        
+      exitCode: 2
+...
