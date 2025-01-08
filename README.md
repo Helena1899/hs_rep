@@ -8,6 +8,7 @@ This repository contains a collection of projects that I have worked on. Each pr
 # Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
 https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
 - Designing a simulation environment for human-robot interaction using the NVIDIA Isaac Sim
+- Implemented visual SLAM into the simulation and converted the point cloud data into a visual diagram to input to the robot (see images below).
 - Developing Python programs to track human agent’s head pose and eye gaze to determine human engagement
 
 <img width="500" alt="Screenshot 2024-12-26 at 3 54 18 PM" src="https://github.com/user-attachments/assets/821c2ae6-879d-480a-9272-81708f7a0761" />
