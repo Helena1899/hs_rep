@@ -10,6 +10,9 @@ https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
 - Designing a simulation environment for human-robot interaction using the NVIDIA Isaac Sim
 - Developing Python programs to track human agent’s head pose and eye gaze to determine human engagement
 
+<img width="500" alt="Screenshot 2024-12-26 at 3 54 18 PM" src="https://github.com/user-attachments/assets/821c2ae6-879d-480a-9272-81708f7a0761" />
+<img width="500" alt="Screenshot 2025-01-08 at 3 31 48 PM" src="https://github.com/user-attachments/assets/530c3e29-6900-46fe-a104-c3c109a9009b" />
+
 
 # ROB 102 (Fall 2024) Introduction to AI and Programming:
 Below are some of the projects that I worked on in this class. These projects range from driving in a star to wall following to developing a breadth first search path planning algorithm.
