@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Helena Sieh - Personal Portfolio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #feeead;
+                color: #333;
+            }
+            header {
+                background-color: #00335b;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 2.5em;
+            }
+            header p {
+                margin: 0;
+                font-size: 1.2em;
+            }
+            .slideshow-container {
+                position: relative;
+                max-width: 100%;
+                margin: 20px auto;
+                overflow: hidden;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            }
+            .slides {
+                display: none;
+            }
+            .slides img {
+                width: 100%;
+                height: 400px; /* Set a consistent height for all images */
+                object-fit: cover;
+            }
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 10px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+            .prev:hover, .next:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+            .dots {
+                text-align: center;
+                padding: 10px 0;
+            }
+            .dots span {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+            .dots .active {
+                background-color: #717171;
+            }
+            nav {
+                margin: 20px auto;
+                text-align: center;
+            }
+            nav a {
+                color: #0078D4;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.1em;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            .container {
+                width: 80%;
+                margin: 20px auto;
+            }
+            .project {
+                background: white;
+                padding: 15px;
+                margin: 15px 0;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .project h3 {
+                margin: 0 0 10px;
+            }
+            .icon-container {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin: 20px 0;
+            }
+            .icon-container a {
+                text-decoration: none;
+            }
+            .icon-container img {
+                width: 40px;
+                height: 40px;
+                transition: transform 0.3s;
+            }
+            .icon-container img:hover {
+                transform: scale(1.2);
+            }
+            footer {
+                text-align: center;
+                padding: 10px 0;
+                background: #333;
+                color: white;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <h1>Welcome to Helena Sieh's Portfolio</h1>
+        <p>Explore my projects, learn more about me, or get in touch!</p>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="slides">
+            <img src="https://global.discourse-cdn.com/nvidia/original/4X/7/c/5/7c5c33ad8623fdd3471ff31a672a41e97f406536.jpeg" alt="NVIDIA Isaac Simulation">
+        </div>
+        <div class="slides">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/0*xfXdebLeaMXt3Vct" alt="YOLO Object Detection">
+        </div>
+        <div class="slides">
+            <img src="https://via.placeholder.com/1200x500" alt="Placeholder Image 3">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <footer>
+        &copy; 2025 Helena Sieh. All Rights Reserved.
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            let dots = document.getElementsByClassName("dot");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+
+        function plusSlides(n) {
+            slideIndex += n - 1;
+            showSlides();
+        }
+
+        function currentSlide(n) {
+            slideIndex = n - 1;
+            showSlides();
+        }
+    </script>
+
+</body>
+</html>
