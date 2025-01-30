@@ -2,32 +2,6 @@
 
 <launch>
 <group ns="rtabmap">
-<!-- -->
-    <!-- For ref: https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/tutorial_ros_navigation.html#isaac-sim-app-tutorial-ros-navigation
-
-         1) In Isaac sim, click on menu Isaac Examples - ROS - Navigation
-         2) Terminal:  $ roscore
-         3) To teleop: $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.15 _turn:=0.20
-         4) Navigation: roslaunch rtabmap_demos demo_isaac_carter_navigation.launch
-         5) Set max depth range to 10m in rtabmap_viz for correct visualization (Preferences->3D Rendering under map and odom columns)
-         6) Press Play in Isaac sim
-
-         Note: carter_2dnav package can be copied to your catkin_ws from:
-            $ cp -r ~/.local/share/ov/pkg/isaac_sim-2021.2.0/ros_workspace/src/* ~/catkin_ws/src/.
-
-       Isaac Sim 2021:
-         For Lidar 3D Mode (lidar3d:=true), make sure in isaac sim that Carter robot is set with VLP16-like parameters (16 rings):
-            Under World -> Carter_ROS -> chassis_link -> carter_lidar -> highLod = True
-                                                                      -> verticalFov = 32
-                                                                      -> verticalResolution = 2
-                                                      -> ROS_lidar    -> pointCloudEnabled = True
-
-       Isaac Sim 2022 (Action Graph):
-         To enable all camera streams (right, depth left and depth right):
-           1. Stage view -> World-> Carter_ROS, right-click on ROS_Cameras -> Open graph
-           2. For all Branch nodes (green/red icon), select them, then check Compute Node -> Inputs -> Condition checkbox.
-         3D LIDAR: TODO: didn't find how to enable/publish it.
-    -->
 
     <param name="use_sim_time" value="true" />
     <arg name="localization" default="true" />
