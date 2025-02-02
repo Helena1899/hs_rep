@@ -1,3 +1,17 @@
+''' 
+    Using the ZED ROS 2 Wrapper that can subscribe to a NavSatFix topic and 
+    fuse GNSS data information with Positional Tracking information 
+    to obtain a precise robot localization referred to Earth coordinates. 
+    To enable GNSS fusion set the parameter gnss_fusion.gnss_fusion_enabled to true. 
+    The services toLL and fromLL can be used to convert Latitude/Longitude coordinates to robot map coordinates. 
+'''
+
+''' 
+Nodes:
+    ublox GPS from /dev/ttyACM0 (needs to publish to sensor_msgs/NavSatFix)
+    zed visual odom \odom 
+'''
+
 # import relevant libraries
 import launch
 from launch import LaunchDescription
@@ -49,7 +63,7 @@ def generate_launch_description():
             ],
         ),
         
-        # Service for converting Lat/Lon to robot map coordinates (optional)
+        # Service for converting Lat/Lon to robot map coordinates
         Node(
             package='zed_ros2_wrapper',
             executable='gnss_to_map_node',
