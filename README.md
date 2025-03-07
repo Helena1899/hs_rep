@@ -38,23 +38,17 @@ This repository contains the programming projects I completed as part of the EEC
 Throughout the course, I worked on a series of projects to deepen my understanding of various topics, including data structures, algorithms, recursion, and object-oriented programming. The course emphasized writing correct and maintainable code, testing, and debugging skills, and the use of C++ language features such as classes, templates, and exceptions.
 
 **Projects Included:**
-Statistics Tool - Implemented a two-sample statistical analysis tool.
-
-Computer Vision - Developed an image resizing algorithm without distortion. 
-
-Euchre Game - Simulated the Euchre card game, a popular game in Michigan. 
-
-Machine Learning - Built a tool to automatically categorize EECS 280 forum posts.
-
-Text Editor - Created a terminal-based text editor with interactive file manipulation.
-
-Binary Search Tree - Implemented a map using a binary search tree.
+- Statistics Tool - Implemented a two-sample statistical analysis tool.
+- Computer Vision - Developed an image resizing algorithm without distortion. 
+- Euchre Game - Simulated the Euchre card game, a popular game in Michigan. 
+- Machine Learning - Built a tool to automatically categorize EECS 280 forum posts.
+- Text Editor - Created a terminal-based text editor with interactive file manipulation.
+- Binary Search Tree - Implemented a map using a binary search tree.
 
 **Key Skills Developed:**
 Container Data Structures:
-
-Linked lists, stacks, queues, binary trees.
-Recursion & Functional Abstraction.
-Data Abstraction, Inheritance, Polymorphism.
-Dynamic resource management and memory handling in C++.
-Testing, debugging, and writing maintainable code.
+- Linked lists, stacks, queues, binary trees.
+- Recursion & Functional Abstraction.
+- Data Abstraction, Inheritance, Polymorphism.
+- Dynamic resource management and memory handling in C++.
+- Testing, debugging, and writing maintainable code.
