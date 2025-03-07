@@ -15,7 +15,7 @@ https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
 <img width="500" alt="Screenshot 2025-01-08 at 3 31 48 PM" src="https://github.com/user-attachments/assets/530c3e29-6900-46fe-a104-c3c109a9009b" />
 
 
-# ROB 102 (Fall 2024) Introduction to AI and Programming:
+# ROB 102 (Fall 2024): Introduction to AI and Programming:
 Below are some of the projects that I worked on in this class. These projects range from driving in a star to wall following to developing a breadth first search path planning algorithm.
 
 **Project 1 Wall Follower Checkpoint Videos**
@@ -30,7 +30,7 @@ Below are some of the projects that I worked on in this class. These projects ra
 - [Bug Navigation Demo](https://drive.google.com/file/d/1i5BkDj3tiplTPPgzpDKMhSkoJJNv6JMl/view?usp=sharing)
 
 
-# EECS280
+# EECS280 Winter(2025): Programming and Introductory Data Structures
 https://eecs280.org/
 
 This repository contains the programming projects I completed as part of the EECS 280 (Foundations of Computer Science and Programming) course at the University of Michigan. EECS 280 is a second-semester foundational programming course that focuses on essential computer science concepts and programming skills using C++.
