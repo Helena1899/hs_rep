@@ -46,7 +46,6 @@ Throughout the course, I worked on a series of projects to deepen my understandi
 - Binary Search Tree - Implemented a map using a binary search tree.
 
 **Key Skills Developed:**
-Container Data Structures:
 - Linked lists, stacks, queues, binary trees.
 - Recursion & Functional Abstraction.
 - Data Abstraction, Inheritance, Polymorphism.
