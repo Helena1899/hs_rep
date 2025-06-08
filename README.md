@@ -21,6 +21,7 @@ This project explores the question: How can robots estimate human visual perspec
   - Open3D-based rendering and visual output
   - Output visualization in RViz and ROS image topics
 
+<img width="684" alt="Screenshot 2025-06-08 at 2 02 51 PM" src="https://github.com/user-attachments/assets/9fc4ad04-928c-46e5-a01a-88d8830fc96f" />
 
 
 # ROB 102 (Fall 2024): Introduction to AI and Programming:
