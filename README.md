@@ -3,16 +3,24 @@ Welcome to My GitHub Repository!
 
 This repository contains a collection of projects that I have worked on. Each project is organized into its own directory along with any relevant documentation, code, and resources. Feel free to explore and provide feedback!
 
-
-
 # Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
 https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
-- Designing a simulation environment for human-robot interaction using the NVIDIA Isaac Sim
-- Implemented visual SLAM into the simulation and converted the point cloud data into a visual diagram to input to the robot (see images below).
-- Developing Python programs to track human agent’s head pose and eye gaze to determine human engagement
 
-<img width="500" alt="Screenshot 2024-12-26 at 3 54 18 PM" src="https://github.com/user-attachments/assets/821c2ae6-879d-480a-9272-81708f7a0761" />
-<img width="500" alt="Screenshot 2025-01-08 at 3 31 48 PM" src="https://github.com/user-attachments/assets/530c3e29-6900-46fe-a104-c3c109a9009b" />
+This project explores the question: How can robots estimate human visual perspective (VPT) using only common onboard sensors?
+  
+- Visual Perspective Taking (VPT) is the ability to understand another person’s viewpoint, taking into account what they see and how they see it.
+- Developed a novel multi-modal VPT extraction algorithm that integrates:
+  - Visual SLAM (VSLAM) to build a 3D map of the environment
+  - RGB-D sensor data to track human head and gaze positions in real-time
+  
+  Features
+  - Real-time human head and gaze tracking
+  - Integration with RGB-D cameras (e.g. Intel RealSense)
+  - SLAM-based scene reconstruction using RTAB-Map
+  - ROS-compatible architecture
+  - Open3D-based rendering and visual output
+  - Output visualization in RViz and ROS image topics
+
 
 
 # ROB 102 (Fall 2024): Introduction to AI and Programming:
