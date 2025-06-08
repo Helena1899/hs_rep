@@ -3,7 +3,15 @@ Welcome to My GitHub Repository!
 
 This repository contains a collection of projects that I have worked on. Each project is organized into its own directory along with any relevant documentation, code, and resources. Feel free to explore and provide feedback!
 
-# Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
+# TOUR GUIDE ROBOT - Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
+- Collaborated in a research team to develop a tour guide robot system measuring human-robot following behaviors
+- Developed real-time software modules in ROS Noetic to integrate and process multi-sensor data streams on the Toyota Human Support Robot (HSR)
+- Implemented algorithms in Python for multi-camera ArUco marker detection and precise localization of human subjects
+- Engineered and optimized PID control loops to dynamically orient the robot head, ensuring continuous human-robot interaction
+- Integrated an additional Intel RealSense D435i camera to improve perception accuracy by enhancing environmental sensing capabilities
+- Built flexible testing environments to conduct user studies, driving iterative improvements based on empirical data
+
+# HUMAN VISUAL PERSPECTIVE TAKING ESTIMATION - Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
 https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
 
 This project explores the question: How can robots estimate human visual perspective (VPT) using only common onboard sensors?
