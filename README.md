@@ -5,6 +5,9 @@ This repository contains a collection of projects that I have worked on. Each pr
 
 # TOUR GUIDE ROBOT (May 2025 - Present)
  Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
+
+Purpose of the study aims to investigate the effects of our mixed-agent team on user satisfaction and learning performance in robot-guided tour scenarios, and to design a new metric, called Following, based on observable human behaviors. The results of this study can enhance the quality of real-world interactions between humans and robots.  
+ 
 - Collaborated in a research team to develop a tour guide robot system measuring human-robot following behaviors
 - Developed real-time software modules in ROS Noetic to integrate and process multi-sensor data streams on the Toyota Human Support Robot (HSR)
 - Implemented algorithms in Python for multi-camera ArUco marker detection and precise localization of human subjects
