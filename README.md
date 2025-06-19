@@ -52,7 +52,7 @@ Below are some of the projects that I worked on in this class. These projects ra
 - [Bug Navigation Demo](https://drive.google.com/file/d/1i5BkDj3tiplTPPgzpDKMhSkoJJNv6JMl/view?usp=sharing)
 
 
-# EECS 280 Winter(2025): Programming and Introductory Data Structures
+# EECS 280 Fall (2025): Programming and Introductory Data Structures
 https://eecs280.org/
 
 This repository contains the programming projects I completed as part of the EECS 280 (Foundations of Computer Science and Programming) course at the University of Michigan. EECS 280 is a second-semester foundational programming course that focuses on essential computer science concepts and programming skills using C++.
