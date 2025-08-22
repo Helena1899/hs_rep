@@ -16,6 +16,7 @@ Purpose of the study aims to investigate the effects of our mixed-agent team on 
 - Built flexible testing environments to conduct user studies, driving iterative improvements based on empirical data
 
 Below are some images of my contributions:
+
 Robot projecting virtual avatar during tour session:
 <img width="509" height="662" alt="Screenshot 2025-08-22 at 4 40 08 PM" src="https://github.com/user-attachments/assets/59caac8c-e485-4115-b980-16ed2094ae46" />
 
