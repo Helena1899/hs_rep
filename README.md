@@ -15,6 +15,14 @@ Purpose of the study aims to investigate the effects of our mixed-agent team on 
 - Integrated an additional Intel RealSense D435i camera to improve perception accuracy by enhancing environmental sensing capabilities
 - Built flexible testing environments to conduct user studies, driving iterative improvements based on empirical data
 
+Below are some images of my contributions:
+Robot projecting virtual avatar during tour session:
+<img width="509" height="662" alt="Screenshot 2025-08-22 at 4 40 08 PM" src="https://github.com/user-attachments/assets/59caac8c-e485-4115-b980-16ed2094ae46" />
+
+Point Cloud Reconstruction in Open3D:
+<img width="578" height="318" alt="Screenshot 2025-08-22 at 4 44 00 PM" src="https://github.com/user-attachments/assets/909f2355-df14-47c3-bfff-a68b929edc6d" />
+
+
 # HUMAN VISUAL PERSPECTIVE TAKING ESTIMATION (August 2024 - May 2025)
 Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
 https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
