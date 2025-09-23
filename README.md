@@ -62,6 +62,9 @@ Below are some of the projects that I worked on in this class. These projects ra
 - [Robot Hits the Spot Demo](https://drive.google.com/file/d/1KOR-LOGgDojt7m0uWE1eUbCL8nmE_8x8/view?usp=sharing)
 - [Bug Navigation Demo](https://drive.google.com/file/d/1i5BkDj3tiplTPPgzpDKMhSkoJJNv6JMl/view?usp=sharing)
 
+# ENGR 100 (Fall 2024): Robotics & Mechanisms:
+Built a fully autonomous mBot-based system that detects ice using thermal sensors, and deploys salt through a closed-loop actuation mechanism to mitigate hazards.
+- [Autonomous Ice Detection and Salt Deployment Robot](https://drive.google.com/file/d/1KdRwgqRl2MX-Hs-DNfTK2iHJhY53ZK_O/view?usp=sharing)
 
 # EECS 280 Fall (2025): Programming and Introductory Data Structures
 https://eecs280.org/
