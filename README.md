@@ -15,6 +15,8 @@ Purpose of the study aims to investigate the effects of our mixed-agent team on 
 - Integrated an additional Intel RealSense D435i camera to improve perception accuracy by enhancing environmental sensing capabilities
 - Built flexible testing environments to conduct user studies, driving iterative improvements based on empirical data
 
+[Watch the demo video](https://drive.google.com/file/d/1GKlCOmXFVMVVzjTltHPon9FTIr0Zo453/view?usp=drive_link)
+
 Below are some images of my contributions:<br>
 
 Robot projecting virtual avatar during tour session:<br>
