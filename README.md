@@ -87,3 +87,7 @@ Throughout the course, I worked on a series of projects to deepen my understandi
 - Data Abstraction, Inheritance, Polymorphism.
 - Dynamic resource management and memory handling in C++.
 - Testing, debugging, and writing maintainable code.
+
+# Automated Bird Counting (CNN)
+- Trained CNN (Python) to detect and count Kolea birds (85% accuracy).
+<img width="554" height="380" alt="Screenshot 2025-10-12 at 11 31 41 AM" src="https://github.com/user-attachments/assets/2fdbdc83-9071-4385-aa4d-fd987fb417a9" />
