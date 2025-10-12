@@ -14,7 +14,7 @@ This repository showcases selected research and coursework in robotics, percepti
 - [Independent Projects](#independent-projects)
 
 
-### 🚀 [TOUR GUIDE ROBOT]  
+### 🚀 TOUR GUIDE ROBOT 
 **Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC]([url](https://mavric.si.umich.edu/home))), University of Michigan  
 **Timeline:** May 2025 – Present  
 
@@ -44,24 +44,20 @@ Point Cloud Reconstruction in Open3D:<br>
 <img width="578" height="318" alt="Screenshot 2025-08-22 at 4 44 00 PM" src="https://github.com/user-attachments/assets/909f2355-df14-47c3-bfff-a68b929edc6d" />
 
 
-# HUMAN VISUAL PERSPECTIVE TAKING ESTIMATION (August 2024 - May 2025)
-Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
-https://sites.google.com/view/umich-urop2024-25-engagement/setting-nvida-isaac
+### 🚀 Undergraduate Researcher 
+**Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC]([url](https://mavric.si.umich.edu/home))), University of Michigan  
+**Timeline:** August 2024 – May 2025  
 
-This project explores the question: How can robots estimate human visual perspective (VPT) using only common onboard sensors?
-  
-- Visual Perspective Taking (VPT) is the ability to understand another person’s viewpoint, taking into account what they see and how they see it.
-- Developed a novel multi-modal VPT extraction algorithm that integrates:
-  - Visual SLAM (VSLAM) to build a 3D map of the environment
-  - RGB-D sensor data to track human head and gaze positions in real-time
-  
-  Features
-  - Real-time human head and gaze tracking
-  - Integration with RGB-D cameras (e.g. Intel RealSense)
-  - SLAM-based scene reconstruction using RTAB-Map
-  - ROS-compatible architecture
-  - Open3D-based rendering and visual output
-  - Output visualization in RViz and ROS image topics
+**Overview:** Explored how robots can estimate human visual perspective taking (VPT) — the ability to infer what another person sees and how they perceive their surroundings — using only onboard sensors. Developed a multi-modal perception framework to enable real-time estimation of human gaze and perspective for improved situational awareness in human–robot collaboration. 
+
+**Key Contributions:** 
+- Designed and implemented a multi-modal VPT extraction algorithm integrating visual SLAM and gaze tracking.
+- Utilized RTAB-Map SLAM based reconstruction of 3D environment maps and localize humans within those maps.
+- Processed RGB-D sensor data to detect and track human head pose and gaze direction in real time.
+- Built a ROS-compatible architecture with visualization in RViz and Open3D for perspective estimation output.
+- Validated the system in simulated and real-world conditions to assess accuracy and responsiveness.
+
+**Technologies:** ROS2, RTAB-Map, Open3D, RGB-D Cameras (Intel RealSense), Python, C++, Visual SLAM, NVIDIA Isaac Sim
 
 <img width="684" alt="Screenshot 2025-06-08 at 2 02 51 PM" src="https://github.com/user-attachments/assets/9fc4ad04-928c-46e5-a01a-88d8830fc96f" />
 
