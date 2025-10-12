@@ -14,7 +14,7 @@ This repository showcases selected research and coursework in robotics, percepti
 - [Independent Projects](#independent-projects)
 
 
-### TOUR GUIDE ROBOT 
+## TOUR GUIDE ROBOT 
 **Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC]([url](https://mavric.si.umich.edu/home))), University of Michigan  
 **Timeline:** May 2025 – Present  
 
@@ -44,7 +44,7 @@ Point Cloud Reconstruction in Open3D:<br>
 <img width="578" height="318" alt="Screenshot 2025-08-22 at 4 44 00 PM" src="https://github.com/user-attachments/assets/909f2355-df14-47c3-bfff-a68b929edc6d" />
 
 
-### Extracting Human Visual Perspective Taking from Robot Sensors
+## Extracting Human Visual Perspective Taking from Robot Sensors
 **Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC]([url](https://mavric.si.umich.edu/home))), University of Michigan  
 **Timeline:** August 2024 – May 2025  
 
