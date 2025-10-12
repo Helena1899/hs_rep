@@ -102,6 +102,20 @@ Throughout the course, I worked on a series of projects to deepen my understandi
 - Dynamic resource management and memory handling in C++.
 - Testing, debugging, and writing maintainable code.
 
-# Automated Bird Counting (CNN)
-- Trained CNN (Python) to detect and count Kolea birds (85% accuracy).
+
+## 🐦 Automated Bird Counting (CNN)
+
+**Role:** Independent Project
+**Timeline:** October 2025
+
+**Overview:**
+Developed a computer vision system to automatically detect and count Kolea birds in field images using a convolutional neural network (CNN). The project aimed to support wildlife monitoring by reducing manual data labeling and improving counting accuracy.
+
+**Key Contributions:**
+- Collected and preprocessed a custom dataset of bird images for supervised training.
+- Trained and fine-tuned a CNN in Python to perform object detection and counting with 85% accuracy.
+- Implemented data augmentation and transfer learning techniques to improve generalization on limited data.
+- Evaluated model performance using precision–recall metrics and visualized detections using OpenCV.
+
+**Technologies:** Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, CNNs, Image Augmentation
 <img width="554" height="380" alt="Screenshot 2025-10-12 at 11 31 41 AM" src="https://github.com/user-attachments/assets/2fdbdc83-9071-4385-aa4d-fd987fb417a9" />
