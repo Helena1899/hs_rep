@@ -1,19 +1,37 @@
 # Helena-Repository
 Welcome to My GitHub Repository!
 
-This repository contains a collection of projects that I have worked on. Each project is organized into its own directory along with any relevant documentation, code, and resources. Feel free to explore and provide feedback!
+👋 Hi! I’m Helena Sieh, a Robotics Engineering student at the University of Michigan.
+This repository showcases selected research and coursework in robotics, perception, and AI, including projects using NVIDIA Jetson Orin, Isaac Sim, ROS2, and machine learning.
 
-# TOUR GUIDE ROBOT (May 2025 - Present)
- Undergraduate Reasearcher at the University of Michigan Autonomous Vehicle Research Intergroup Collaboration ([MAVRIC]([url](https://mavric.si.umich.edu/home))) Lab:**
+## Table of Contents
+- [Tour Guide Robot (MAVRIC Lab)](#tour-guide-robot-may-2025---present)
+- [Human Visual Perspective Taking Estimation](#human-visual-perspective-taking-estimation-aug-2024---may-2025)
+- [Course Projects](#course-projects)
+  - [ROB 102: Intro to AI and Programming](#rob-102-fall-2024)
+  - [ENGR 100: Robotics & Mechanisms](#engr-100-fall-2024)
+  - [EECS 280: Programming and Data Structures](#eecs-280-fall-2025)
+- [Independent Projects](#independent-projects)
 
-Purpose of the study aims to investigate the effects of our mixed-agent team on user satisfaction and learning performance in robot-guided tour scenarios, and to design a new metric, called Following, based on observable human behaviors. The results of this study can enhance the quality of real-world interactions between humans and robots.  
- 
-- Collaborated in a research team to develop a tour guide robot system measuring human-robot following behaviors
-- Developed real-time software modules in ROS Noetic to integrate and process multi-sensor data streams on the Toyota Human Support Robot (HSR)
-- Implemented algorithms in Python for multi-camera ArUco marker detection and precise localization of human subjects
-- Engineered and optimized PID control loops to dynamically orient the robot head, ensuring continuous human-robot interaction
-- Integrated an additional Intel RealSense D435i camera to improve perception accuracy by enhancing environmental sensing capabilities
-- Built flexible testing environments to conduct user studies, driving iterative improvements based on empirical data
+
+### 🚀 [TOUR GUIDE ROBOT]  
+**Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC]([url](https://mavric.si.umich.edu/home))), University of Michigan  
+**Timeline:** May 2025 – Present  
+
+**Overview:**  
+Investigating how mixed-agent (robot + virtual avatar) tour guide systems influence user satisfaction and learning performance. Designed a new behavioral metric, Following, based on observable human gaze, proximity, and movement data to improve real-world human–robot interaction.
+
+**Key Contributions:**  
+- Collaborated on the development of a tour guide robot system to measure human-robot following behaviors.
+- Built real-time software modules in ROS Noetic for multi-sensor data fusion on the Toyota Human Support Robot (HSR).
+- Implemented multi-camera ArUco marker detection in Python for precise human localization.
+- Engineered and optimized PID control loops for dynamic robot head orientation, maintaining continuous engagement.
+- Integrated an additional Intel RealSense D435i to enhance perception and environmental awareness.
+- Designed flexible user study environments, iterating based on empirical behavioral data. 
+
+**Technologies:** ROS/ROS2, Python, ArUco, PID Control, Intel RealSense D435i, Toyota HSR, SLAM, Human–Robot Interaction  
+
+**Demo:** 
 
 [Watch a short demo video here](https://drive.google.com/file/d/1RP4j1KjlgW5vL6yS8Cnq2BmeUxjTizo1/view?usp=sharing)
 
