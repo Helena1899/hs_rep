@@ -15,7 +15,7 @@ This repository showcases selected research and coursework in robotics, percepti
 
 
 ## TOUR GUIDE ROBOT 
-**Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC]([url](https://mavric.si.umich.edu/home))), University of Michigan  
+**Role:** Undergraduate Researcher, MAVRIC Lab ([MAVRIC](https://mavric.si.umich.edu/home)), University of Michigan  
 **Timeline:** May 2025 – Present  
 
 **Overview:**  
