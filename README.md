@@ -125,6 +125,7 @@ Developed a computer vision system to automatically detect and count Kolea birds
 ## 🤖 FRC Robot Automatic Balancing
 
 **Role:**  Software Member for FIRST Robot Competition Team 2438
+
 **Timeline:** March 2023
 
 **Overview:**
