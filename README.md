@@ -9,7 +9,7 @@ This repository showcases selected research and coursework in robotics, percepti
 - [Human Visual Perspective Taking Estimation](#extracting-human-visual-perspective-taking-from-robot-sensors)
 - [Course Projects](#course-projects)
   - [ROB 102: Intro to AI and Programming](#rob-102-fall-2024-introduction-to-ai-and-programming)
-  - [ENGR 100: Robotics & Mechanisms](#engr-100-fall)
+  - [ENGR 100: Robotics & Mechanisms](#engr-100-fall-2024-robotics--mechanisms)
   - [EECS 280: Programming and Data Structures](#eecs-280-fall-2025-programming-and-introductory-data-structures)
 - [Independent Projects](#-automated-bird-counting-cnn)
 - [FRC Robot Automatic Balancing](#-frc-robot-automatic-balancing)
