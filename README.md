@@ -5,7 +5,7 @@ Welcome to My GitHub Repository!
 This repository showcases selected research and coursework in robotics, perception, and AI, including projects using NVIDIA Jetson Orin, Isaac Sim, ROS2, and machine learning.
 
 ## Table of Contents
-- [Tour Guide Robot (MAVRIC Lab)](#tour-guide-robot-may-2025---present)
+- [Tour Guide Robot (MAVRIC Lab)](#tour-guide-robot)
 - [Human Visual Perspective Taking Estimation](#human-visual-perspective-taking-estimation-aug-2024---may-2025)
 - [Course Projects](#course-projects)
   - [ROB 102: Intro to AI and Programming](#rob-102-fall-2024)
