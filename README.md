@@ -12,7 +12,7 @@ This repository showcases selected research and coursework in robotics, percepti
   - [ENGR 100: Robotics & Mechanisms](#engr-100-fall-2024)
   - [EECS 280: Programming and Data Structures](#eecs-280-fall-2025)
 - [Independent Projects](#-automated-bird-counting-cnn)
-- [FRC Robot Automatic Balancing](#frc)
+- [FRC Robot Automatic Balancing](#-frc-robot-automatic-balancing)
 
 
 ## TOUR GUIDE ROBOT 
