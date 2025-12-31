@@ -12,6 +12,7 @@ This repository showcases selected research and coursework in robotics, percepti
   - [ENGR 100: Robotics & Mechanisms](#engr-100-fall-2024)
   - [EECS 280: Programming and Data Structures](#eecs-280-fall-2025)
 - [Independent Projects](#independent-projects)
+- [FRC Robot Automatic Balancing](#frc)
 
 
 ## TOUR GUIDE ROBOT 
@@ -119,3 +120,15 @@ Developed a computer vision system to automatically detect and count Kolea birds
 
 **Technologies:** Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, CNNs, Image Augmentation
 <img width="554" height="380" alt="Screenshot 2025-10-12 at 11 31 41 AM" src="https://github.com/user-attachments/assets/2fdbdc83-9071-4385-aa4d-fd987fb417a9" />
+
+
+## 🤖 FRC Robot Automatic Balancing
+
+**Role:**  Software Member for FIRST Robot Competition Team 2438
+**Timeline:** March 2023
+
+**Overview:**
+Used gyroscope on robot to balance on the platform. Demo video attached below!
+
+[FRC Robot Automatic Balancing Demo](https://drive.google.com/file/d/1GY1-cZLyX124-3ffmmrwyjdngMj5zua9/view?usp=sharing)
+
