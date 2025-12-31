@@ -10,7 +10,7 @@ This repository showcases selected research and coursework in robotics, percepti
 - [Course Projects](#course-projects)
   - [ROB 102: Intro to AI and Programming](#rob-102-fall-2024-introduction-to-ai-and-programming)
   - [ENGR 100: Robotics & Mechanisms](#engr-100-fall)
-  - [EECS 280: Programming and Data Structures](#eecs-280-fall)
+  - [EECS 280: Programming and Data Structures](#eecs-280-fall-2025-programming-and-introductory-data-structures)
 - [Independent Projects](#-automated-bird-counting-cnn)
 - [FRC Robot Automatic Balancing](#-frc-robot-automatic-balancing)
 
