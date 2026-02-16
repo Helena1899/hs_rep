@@ -7,6 +7,7 @@ This repository showcases selected research and coursework in robotics, percepti
 ## Table of Contents
 - [Tour Guide Robot (MAVRIC Lab)](#tour-guide-robot)
 - [Human Visual Perspective Taking Estimation](#extracting-human-visual-perspective-taking-from-robot-sensors)
+- [ROB 320: Robot Operating System](#rob-320-winter-2026-robot-operating-system)
 - [Course Projects](#course-projects)
   - [ROB 102: Intro to AI and Programming](#rob-102-fall-2024-introduction-to-ai-and-programming)
   - [ENGR 100: Robotics & Mechanisms](#engr-100-fall-2024-robotics--mechanisms)
