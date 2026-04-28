@@ -81,13 +81,13 @@ The objective of the second project is to implement driver programs to enable a 
 
 This project requires you to implement two programs: mbot_driver and lidar_driver. The mbot_driver in project 2 is very similar to project 1 in that it will interface via USB with the MBot Control Board. However, rather than receiving velocity commands via a pipe, it will host a server that will receive position commands from and send odometry data to a client that connects to it. The lidar_driver will interface with the RPLIDAR A1 and will host a server that will send laser range data to a client that connects to it. Pictured below is the click to drive GUI running successfully. Here is a link to a video demonstration of the GUI.
 
-# Project 3: Robot Interprocess eXchange
+**Project 3: Robot Interprocess eXchange
 The objective of the third project is to develop a full publish/subscribe system to enable asynchronous streaming of messages between nodes via topics. You will implement the core functionality of the Robot Interprocess eXchange (RIX), which consists of 4 classes: Node, Publisher, Subscriber, and Mediator.
 
-# Project 4: Forward Kinematics
+**Project 4: Forward Kinematics
 The objective of the fourth project is to develop a library that enables the efficient distribution of and transformation between coordinate frames. You will use a textual description of a robot (JRDF, which has all of the rules of URDF but is formatted as JSON rather than XML), to determine the geometric relationships between the links and joints that comprise a robot. A link is a rigid body with inertia, visual features, and collision properties. A joint represents the kinematic relationship between two links, often a rotation (revolute or continuous joint) or a translation (prismatic joint). In this project, the geometric relationships among links and joints are represented as 3D homogenous transformations. You will use the Eigen Geometry library for all linear algebra operations in this project.
 
-# Project 5: Inverse Kinematics
+**Project 5: Inverse Kinematics
 The objective of the fifth project is to implement inverse kinematics using Gauss-Newton method. To do this, you must compute the geometric Jacobian for a serial chain robot and use the Moore-Penrose pseudoinverse of the Jacobian for iterative optimization. There is only a single interface that you are responsible for implementing in this project: KinematicsSolver. 
 
 The KinematicsSolver class provides methods to solve forward kinematics and inverse kinematics problems using numerical methods. You will implement four key methods in kinematics_solver.cpp:
