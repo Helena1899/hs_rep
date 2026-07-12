@@ -1,0 +1,8 @@
+statsbombpy
+pandas
+numpy
+scipy
+networkx
+gymnasium
+stable-baselines3
+matplotlib
