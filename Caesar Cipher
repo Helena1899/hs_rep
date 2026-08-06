@@ -1,0 +1,171 @@
+// Helena Sieh
+// December 9, 2022
+// Period 5
+// Vigenere
+
+// including libraries
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+// https://www.asciitable.com/
+
+string cipherText(string original, string shiftNum);
+
+string cipherText(string original, string keyWord)
+{
+    // define variables
+    string cipher;
+    char shift1;
+    char shift2;
+
+    printf("ciphertext: ");
+    for (int i = 0; i < strlen(original); i++)
+        {
+            //original = get_string("Original Text: ");
+            // if i is a letter, then continue to shift
+            if (isalpha(original[i]))
+            {
+                // lowercase 97 - 122
+                //if (islower(original[i] >= 'a') || islower(original[i] <= 'z'))
+                if (islower(original[i]))
+                {
+                    // looked at ACSII Table for the uppercase letters
+                    // need to add changes to end if shift1 > 122, then need to do some math
+                    shift1 = (char)((original[i] + keyWord) % 26);
+                    cipher = &shift1;
+                    printf("%c", (char)shift1);
+                    //printf("\nDONE!");
+                }
+
+
+                // uppercase 65 - 90
+                if (isupper(original[i]))
+                {
+                    // looked at ACSII Table for the lowercase letters
+                    shift2 = (char)(((char)original[i] + (char)keyWord) % 26);
+                    cipher = &shift2;
+                    printf("%c", (char)shift2);
+                }
+            }
+
+            else
+            {
+                // if the value of i is a either a symbol (.,?!), then leave it that way
+                if (original[i] == '.' || original[i] == ',' || original[i] == '?' || original[i] == '!' || original[i] == ' ')
+                {
+                    printf("%c", original[i]);
+                }
+                // if there is a number, keep it
+                if (isdigit(original[i]))
+                {
+                    printf("%c", original[i]);
+                }
+            }
+        }
+
+        printf("\n");
+        return (string)cipher;
+        printf("RETURN: %s ",(string) cipher);
+}
+
+
+int main(int argc, string argv[])
+{
+    // define variables
+    string keyWord;
+    string input;
+    string ciphered;
+    int lenKey;
+
+    // if there are less than 2 arguments, then return 1
+    if (argc != 2)
+    {
+        printf("Usage: ./vigenere key\n");
+        return 1;
+    }
+
+    // checking if there is a number in the user input
+    for (int s = 0; s < strlen(argv[1]); s++)
+    {
+        if (isdigit(argv[1][s]))
+        {
+            printf("Usage: ./vigenere key\n");
+            return 1;
+        }
+    }
+
+    // if there are two arguments, and the second argument is a digit,
+    if (argc == 2)
+    {
+        // set the keyword equal to the text the user inputted in the terminal:
+        keyWord = argv[1];
+        lenKey = strlen(keyWord);
+        //printf("keyWord: %s\n", keyWord);
+
+        int count = 0;
+        int cipher1[lenKey];
+
+        // assigns the individual numbers in the keyword
+        for (int x = 0; x < lenKey; x++)
+        {
+            // lowercase
+            char place = argv[1][x];
+
+            if (islower(place))
+            {
+                cipher1[x] = (int) place - 97;
+            }
+
+            else
+            {
+                cipher1[x] = (int) place - 65;
+            }
+
+            //printf("%i \n", cipher1[x]);
+            count++;
+            //printf("Count: %i\n", count);
+        }
+
+
+        // user input
+        input = get_string("plaintext: ");
+        int cipherCount = 0;
+
+        for (int y = 0; y < strlen(input); y++)
+        {
+            if (isalpha(input[y]))
+            {
+                // lowercase
+                if (islower(input[y]))
+                {
+                    input[y] = (char)(((int)(input[y] + cipher1[cipherCount]) - 97) % 26 + 97);
+                    cipherCount++;
+
+                }
+                else
+                {
+                    input[y] = (char)(((int)(input[y] + cipher1[cipherCount]) - 65) % 26 + 65);
+                    cipherCount++;
+                }
+            }
+
+            if (cipherCount == lenKey)
+            {
+                cipherCount = 0;
+            }
+
+            //printf("Input: %s position: %i cipherCount: %i Cipher Shift: %i\n", input, y, cipherCount - 1, cipher1[cipherCount] - 1);
+        }
+        printf("ciphertext: %s\n",input);
+        // calls the cipher function to cipher the input the user put in
+        //ciphered = cipherText(input, keyWord);
+        // prints the ciphered text
+        //printf("ciphertext: %s\n", ciphered);
+        return 0;
+    }
+}
